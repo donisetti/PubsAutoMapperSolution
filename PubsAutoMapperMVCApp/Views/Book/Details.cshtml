@@ -1,0 +1,29 @@
+﻿@model PubsAutoMapperMVCApp.Models.BookAuthorViewModel
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<div class="row well">
+    <div class="col-lg-5 table-bordered">
+        <h3>@Model.Title</h3>
+        <h4>@Model.Category</h4>
+        <h4>@Model.Price.ToString("c")</h4>
+    </div>
+    <div class="col-lg-4 col-lg-offset-1">
+        <h3>Author(s)</h3>
+        @foreach (var aa in Model.Authors)
+            {
+            <div>
+                @aa.FirstName @aa.LastName
+            </div>
+        }
+    </div>
+</div>
+<div class="row">
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.BookId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+
+</div>

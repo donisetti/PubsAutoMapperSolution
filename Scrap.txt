@@ -1,0 +1,22 @@
+
+ context.Authors.AddOrUpdate(a => a.FirstName,
+                 new Author { FirstName = "Robert", LastName = "Ludlum" },
+                 new Author { FirstName = "Jeffrey", LastName = "Archer" },
+                 new Author { FirstName = "Edward", LastName = "De Bono" },
+                 new Author { FirstName = "Sidney", LastName = "Sheldon" },
+                 new Author { FirstName = "Desmond", LastName = "Morris" },
+                 new Author { FirstName = "J.K", LastName = "Rowling" },
+                 new Author { FirstName = "Eric Van", LastName = "Lustbader" }
+                );
+
+
+            context.Books.AddOrUpdate(b => b.Title,
+                new Book { Title = "Bourne Identity", Price = 120.90m, Category = "Fiction", Authors = new List<Author> { new Author { FirstName = "Robert", LastName = "Ludlum" } } },
+                new Book { Title = "Not a Penny Less Not a Penny More", Price = 100.90m, Category = "Fiction", Authors = new List<Author> { new Author { FirstName = "Jeffrey", LastName = "Archer" } } },
+                new Book { Title = "Lateral Thinking", Price = 90, Category = "NonFiction", Authors = new List<Author> { new Author { FirstName = "Edward", LastName = "De Bono" } } },
+                new Book { Title = "If Tomorrow Comes", Price = 130.90m, Category = "Fiction", Authors = new List<Author> { new Author { FirstName = "Sidney", LastName = "Sheldon" } } },
+                new Book { Title = "People Watching", Price = 300, Category = "NonFiction", Authors = new List<Author> { new Author { FirstName = "Desmond", LastName = "Morris" } } },
+                new Book { Title = "Harry Potter", Price = 70.90m, Category = "Fiction", Authors = new List<Author> { new Author { FirstName = "J.K", LastName = "Rowling" } } },
+                new Book { Title = "Bourne Sanction", Price = 140.90m, Category = "Fiction", Authors = new List<Author> { new Author { FirstName = "Robert", LastName = "Ludlum" }, new Author { FirstName = "Eric Van", LastName = "Lustbader" } } }
+
+                );

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubsDomainLibrary", "PubsDomainLibrary\PubsDomainLibrary.csproj", "{169DE405-2BEB-43C9-8235-52FADD681742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubsAutoMapperMVCApp", "PubsAutoMapperMVCApp\PubsAutoMapperMVCApp.csproj", "{DCC37B14-B457-4AF7-A671-D1D882B34CA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26A961C7-9866-487B-B463-31F4157FDC95}"
+	ProjectSection(SolutionItems) = preProject
+		Scrap.txt = Scrap.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{169DE405-2BEB-43C9-8235-52FADD681742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169DE405-2BEB-43C9-8235-52FADD681742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169DE405-2BEB-43C9-8235-52FADD681742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169DE405-2BEB-43C9-8235-52FADD681742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC37B14-B457-4AF7-A671-D1D882B34CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC37B14-B457-4AF7-A671-D1D882B34CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC37B14-B457-4AF7-A671-D1D882B34CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC37B14-B457-4AF7-A671-D1D882B34CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
